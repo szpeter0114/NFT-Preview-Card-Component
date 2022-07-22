@@ -1,0 +1,184 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+    margin-top: 5rem;
+    color: #fff;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+/* 
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+*/
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+#container {
+    height: 35rem;
+    width: 20.3125rem;
+    background-color: hsl(216, 50%, 16%);
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    color: hsl(215, 51%, 70%);
+    border-radius: 3%;
+    padding-top: 1.44rem;
+    font-family: 'Outfit';
+}
+
+#container {
+    position: relative;
+}
+
+.img-overflow {
+    position: absolute;
+    width: 17.5rem;
+    height: 17.5rem;
+    background-color: rgba(0, 255, 255, 0.528);
+    align-self: center;
+    border-radius: 3%;
+    opacity: 0;
+}
+
+ #container #mainimg {
+    width: 17.5rem;
+    align-self: center;
+    border-radius: 3%;
+}
+
+#view {
+    position: absolute;
+    top: 7.225em;
+    left: 7.225rem;
+   
+}
+
+.img-overflow:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+#container p {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+#container h1 {
+    padding-top: 1.5rem;
+    font-size: 1.41rem;
+    padding-bottom: 1rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+#container h1:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+#container p, li {
+    line-height: 1.5rem;
+    
+}
+
+#container article {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+#container ul {
+    display: flex;
+}
+
+#container li {
+    padding: 0.2rem;
+}
+
+#ethamount{
+    font-family: 'Outfit';
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+#container ul:last-child{
+    padding-right: 1rem;
+}
+
+#innerCont {
+    width: 19.5rem;
+    padding-left: 1.5rem;
+}
+
+footer li {
+    text-align: center;
+    font-weight: 300;
+}
+
+footer img {
+    width: 2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+footer ul {
+    list-style-type: none; 
+    padding-left: 1.5rem;
+}
+
+
+
+span {
+    color: #fff;
+}
+
+span:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+
+article img {
+    height: 1.2rem;
+}
+
+article ul {
+    list-style-type: none;
+    }
+    
+hr {
+    width: 80%;
+    margin: 0 auto;
+    height: 0.05rem;
+    border: none;
+    background-color: hsl(215, 32%, 27%);
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
